@@ -1,0 +1,124 @@
+html, body, header, footer, main, section, h1, h2, ul, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+	background-color: #F0F0F0;
+	font-family: 'Verdana', sans-serif;
+	height: 100%;
+}
+header {
+	background: url(sky_wide.jpg) center no-repeat;
+	height: 200px;
+	background-size: cover;
+	border-bottom: 1px solid #777;
+}
+header ul {
+	font-size: 22px;
+	font-style: italic;
+	color: #000055;
+	margin: 10px 10px 10px 15px;
+	list-style-type: none;
+}
+footer {
+	background:url(sky_footer.jpg) center no-repeat;
+	height: 100px;
+	background-size: cover;
+	border-top: 1px solid #777;
+	min-width: 800px;
+}
+nav {
+	font-size: 17px;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #777;
+}
+nav li {
+	display: inline-block;
+}
+nav li:nth-child(1) { border-bottom: 2px solid RGBa(0, 0, 200, 1); }
+nav li:nth-child(2) { border-bottom: 2px solid RGBa(0, 0, 100, 1); }
+nav li:nth-child(3) { border-bottom: 2px solid RGBa(0, 0, 0, 1); }
+nav a {
+	display: block;
+	padding: 10px 20px 10px 20px;
+	margin: 5px 1px 5px 1px;
+	border-radius: 3px 8px 8px 8px;
+	text-decoration: none;
+	color: #ffffff;
+	background:
+		radial-gradient(#000066, #0000BB);
+}
+#red-pills a {
+	background:
+		radial-gradient(#660000, #BB0000);
+}
+nav li:active {
+	font-weight: bold;
+}
+main {
+	min-width: 800px;
+	min-height: 500px;
+}
+section {
+	margin: 20px 20px 10px 12px;
+	display: block;
+}
+section li {
+	margin: 15px 20px 5px 50px;
+}
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #000066;
+	padding: 20px 0 0 12px;
+}
+h2 {
+	font-size: 19px;
+	font-weight: bold;
+	padding-left: 12px;
+}
+figure {
+	float:right;
+}
+.when {
+	float: right;
+	font-size: 18px;
+	color: #505050;
+	font-weight: bold;
+}
+.section-content {
+	font-size: 18px;
+	color: #000033;
+}
+#NCscroll {
+	max-height: 50%;
+	max-width: 70%;
+}
+#Calc {
+	border: 1px solid #777;
+}
+.show-all {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	margin: 10px 10px 10px 15px;
+	padding: 5px 10px;
+	border-radius: 6px;
+	border: 2px solid #777;
+	background-color: #DDD;
+}
+.show-all.closed {
+	color: green;
+}
+.show-all a {
+	color: inherit;
+	text-decoration: inherit;	
+}
+.show-all:active {
+	background-color: #999;
+}
+.hidden {
+	display: none;
+}
